@@ -16,6 +16,7 @@ import { MatFormField } from '@angular/material/form-field';
 import { MatHint } from '@angular/material/form-field';
 import { MatLabel } from '@angular/material/form-field';
 import {MatStepperModule} from '@angular/material/stepper';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import {MatStepperModule} from '@angular/material/stepper';
     MatFormField,
     MatHint,
     MatLabel,
-    MatStepperModule
+    MatStepperModule,
+    MatCardModule
   ],
   providers: [
     provideAnimationsAsync()

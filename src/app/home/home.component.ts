@@ -5,6 +5,8 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -17,6 +19,7 @@ import {MatButtonModule} from '@angular/material/button';
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
+    MatCardModule
   ],
 })
 export class HomeComponent {
