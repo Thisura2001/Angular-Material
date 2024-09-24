@@ -29,4 +29,9 @@ export class HomeComponent {
     secondCtrl: ['', Validators.required],
   });
   isLinear = true;
+
+  getData(){
+    console.log("FirstName: "+this.firstFormGroup.value["firstCtrl"]);
+    
+  }
 }
