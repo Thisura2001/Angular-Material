@@ -17,6 +17,7 @@ import { MatHint } from '@angular/material/form-field';
 import { MatLabel } from '@angular/material/form-field';
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatCardModule} from '@angular/material/card';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import {MatCardModule} from '@angular/material/card';
     MatHint,
     MatLabel,
     MatStepperModule,
-    MatCardModule
+    MatCardModule,
+    MatProgressBarModule
   ],
   providers: [
     provideAnimationsAsync()
